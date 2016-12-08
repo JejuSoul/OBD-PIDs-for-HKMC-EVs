@@ -1,0 +1,17 @@
+004_CALC Security on SOC Display,SOC-VAR1,2101,5,0,100,%,7E2
+004_CALC SOC Display minus Security,SOC-VAR2,2101,val{000_State of Charge Display}-val{004_CALC Security on SOC Display},0,100,%,7E2
+004_CALC SOC Display Minus Security Divided 100,SOC-VAR3,2101,val{004_CALC SOC Display minus Security}/100,0,1,,7E2
+
+004_CALC MaxMin DET,AVRDET1,2101,val{000_Maximum Deterioration}+val{000_Minimum Deterioration},0,1000,,7E2
+004_CALC AVRDET,Average DET,2101,val{004_CALC MaxMin DET}/2,0,100,%,7E2
+004_CALC AVRDET For SOH,Lost SOH,2101,10-val{004_CALC AVRDET},-100,10,%,7E2
+
+004_CALC AVRDET For SOH Divided 100,AVRDET3,2101,val{004_CALC AVRDET For SOH}/100,0,1,,7E2
+004_CALC Lost of SOH,Lost SOH,2101,27*val{004_CALC AVRDET For SOH Divided 100},0,27,kWh,7E2
+
+004_CALC SOH Battery in kWh,SOH in kWh,2101,27+val{004_CALC Lost of SOH},0,31,kWh,7E2
+004_CALC SOH Battery in 100 ratio,SOH in %,2101,val{004_CALC SOH Battery in kWh}/27*100,0,110,%,7E2
+
+004_CALC Instant Remaining Kilometers,MAX Km,2101,val{003_VMCU Instant Driving Efficiency2}*val{004_CALC SOH Battery in kWh}*val{004_CALC SOC Display Minus Security Divided 100},0,256,km,7E2
+004_CALC Instant Remaining Minutes,MAX Minutes,2101,val{004_CALC SOH Battery in kWh}*val{004_CALC SOC Display Minus Security Divided 100}/val{003_VMCU Instant Driving Efficiency}*60,0,240,min,7E2
+004_CALC Instant Remaining kWh,MAX kWh,2101,val{004_CALC SOH Battery in kWh}*val{000_State of Charge BMS}/100,0,30,kWh,7E2

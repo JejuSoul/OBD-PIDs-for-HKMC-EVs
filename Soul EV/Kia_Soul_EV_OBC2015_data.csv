@@ -1,0 +1,8 @@
+, On Board charger OBC data for Kia Soul EV using Torque Pro v1
+, available when the J1772 Cord is connected
+Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
+002_Normal Charge Port,Slowcharger,2101,{j5},0,1,,7E4
+002_Rapid Charge Port,Fastcharger,2101,{j6},0,1,,7E4
+002_OBC_Charging_Current,ChargeAmps,2102,((m8)+n)10,0,400,A,794
+002_OBC_Charging_Voltage,ChargeVolts,2102,((g8)+h)10,0,400,V,794
+002_OBC_Charging_Power,ChargePower,2102,(val{002_OBC_Charging_Current}val{002_OBC_Charging_Voltage})1000,0,400,kW,794

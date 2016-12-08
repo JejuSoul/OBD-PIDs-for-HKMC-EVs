@@ -1,0 +1,26 @@
+, Vehicle Motor Control System VMCU data for Kia Soul EV using Torque Pro
+Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
+003_VMCU Climate 1,Climate 1,2102,g,0,255,,7E2
+003_VMCU Climate 2,Climate 2,2102,h,0,255,,7E2
+003_VMCU Motor Actual Speed RPM,Speed rpm,2102,((j<8)+i),0,10000,rpm,7E2
+003_VMCU Motor Torque Command Nm,Torque Command,2102,((l<8)+k),0,10000,Nm,7E2
+003_VMCU Estimated Motor Torque,Est. Torque,2102,((n<8)+m),0,10000,Nm,7E2
+003_VMCU Motor Phase Current RMS,Phase Current RMS,2102,((v<8)+u),0,10000,rms,7E2
+003_VMCU Motor Temperature,Motor temp,2102,w-40,-40,200,C,7E2
+003_VMCU MCU Temperature,MCU temp,2102,x-40,-40,200,C,7E2
+003_VMCU Heat Sink Temperature,Heat sink,2102,y-40,-40,200,C,7E2
+003_VMCU Motor U Phase Current Sensor Offset,U Phase,2102,((z<8)+y),0,10000,,7E2
+003_VMCU Motor V Phase Current Sensor Offset,V Phase,2102,((ab<8)+aa),0,10000,,7E2
+003_VMCU Motor Resolver Offset,Resolver Offset,2102,((ad<8)+ac),0,10000,,7E2
+003_VMCU Brake lamp,Brake lamp,2100,{j:0},0,1,,7E2
+003_VMCU Brake sw,Brake sw,2100,{j:1},0,1,,7E2
+003_VMCU Brake related,Brake related,2100,j,0,255,,7E2
+003_VMCU Accel Pedal Related,Pedal related,2101,i,0,255,,7E2
+003_VMCU Accel Pedal Depth,Pedal,2101,j/2,0,100,%,7E2
+003_VMCU P,P,2100,{h:0},0,1,,7E2
+003_VMCU R,R,2100,{h:1},0,1,,7E2
+003_VMCU N,N,2100,{h:2},0,1,,7E2
+003_VMCU D,D,2100,{h:3},0,1,,7E2
+003_VMCU B,B,2100,{h:4},0,1,,7E2
+003_VMCU Eco,Eco,2100,{h:5},0,1,,7E2
+003_VMCU CH tmr Inh,CH,2100,{h:6},0,1,,7E2
