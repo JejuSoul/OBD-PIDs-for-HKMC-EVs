@@ -9,7 +9,7 @@ http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=471
 
 ## What hardware do I need
 Almost all users are using a Bluetooth Diagnostic Scanner connected to an android phone ot tablet running Torque Pro.
-We recommend the Konnwei KW902. See - http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=711
+We recommend the Konnwei KW902. See - [recommended obd2 adapter](http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=711)
 
 ## I am IOS user. How can I use PIDs?
 Try Engine Link and a LELink - Bluetooth Low Energy OBDII Adapter.
