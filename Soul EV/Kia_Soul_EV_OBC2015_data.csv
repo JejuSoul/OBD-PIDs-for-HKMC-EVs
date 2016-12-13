@@ -1,8 +1,18 @@
-, On Board charger OBC data for Kia Soul EV using Torque Pro v1
+, On Board charger OBC data for Kia Soul EV using Torque Pro
 , available when the J1772 Cord is connected
+, Version1: this is for 2014 and 2015 Soul EVs
 Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
-002_Normal Charge Port,Slowcharger,2101,{j5},0,1,,7E4
-002_Rapid Charge Port,Fastcharger,2101,{j6},0,1,,7E4
-002_OBC_Charging_Current,ChargeAmps,2102,((m8)+n)10,0,400,A,794
-002_OBC_Charging_Voltage,ChargeVolts,2102,((g8)+h)10,0,400,V,794
-002_OBC_Charging_Power,ChargePower,2102,(val{002_OBC_Charging_Current}val{002_OBC_Charging_Voltage})1000,0,400,kW,794
+002_Normal Charge Port,Slowcharger,2101,{j:5},0,1,,7E4
+002_Rapid Charge Port,Fastcharger,2101,{j:6},0,1,,7E4
+002_OBC_Charging_Current,ChargeAmps,2102,((m<8)+n)/10,0,400,A,794
+002_OBC_Charging_Voltage,ChargeVolts,2102,((g<8)+h)/10,0,400,V,794
+002_OBC_OutputVolts,OutputVolts,2102,((k<8)+l)/10,0,400,V,794
+002_OBC_Unknown1,Unknown1,2102,i,0,256,?,794
+002_OBC_Unknown2,Unknown2,2102,j,0,256,?,794
+002_OBC_Pilot_Duty_Cycle,Pilot_Duty,2102,r/3,0,86,%,794
+002_OBC Temp 1,OBC Temp 1,2102,s,0,255,C,794
+002_OBC Temp 2,OBC Temp 2,2102,t,0,255,C,794
+002_OBC Temp 3,OBC Temp 3,2102,u,0,255,C,794
+002_OBC_Charging_Power,ChargePower,2102,(val{002_OBC_Charging_Current}*val{002_OBC_Charging_Voltage})/1000,0,400,kW,794
+002_OBC_Efficiency,OBC_Efficiency,2102,ABS(val{000_Battery Power}/val{002_OBC_Charging_Power})*100,0,100,%,794
+002_OBC_Amps_Limit,Amps_Limit,2102,val{002_OBC_Pilot_Duty_Cycle}*0.6,0,52,A,794
