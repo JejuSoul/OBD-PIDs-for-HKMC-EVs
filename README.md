@@ -1,11 +1,12 @@
-# OBD-PID-for-HMC-EV
-OBD PID for Hyundai Motor Company Electric Vehicles
+# OBD-PIDs-for-HKMC-EVs
+OBD PIDs for Hyundai/Kia/Motor/Company Electric Vehicles
 
 ## What is OBD? What is PID?
 Refer to [Wikipedia ](https://en.wikipedia.org/wiki/On-board_diagnostics)
 
 ## How to use?
-http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=471
+These codes are for use with Torque Pro.
+[Setting up Torque to show BMS data](http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=471)
 
 ## What hardware do I need
 Almost all users are using a Bluetooth Diagnostic Scanner connected to an android phone ot tablet running Torque Pro.
