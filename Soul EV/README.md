@@ -1,7 +1,6 @@
 # OBD PIDs for the Kia Soul EV
 
-## For the Kia Soul EV - see 
-[Setting up Torque to show BMS data](http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=471)
+## For the Kia Soul EV - see [Setting up Torque to show BMS data](http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=471)
 
 ## Files
 The BMS is the Battery Management System for the High Voltage battery.
