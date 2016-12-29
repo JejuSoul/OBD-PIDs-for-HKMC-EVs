@@ -5,7 +5,7 @@
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets. The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin.
 Or this can be done manually. [Setting up Torque to show BMS data on the Ioniq EV](http://myioniq.com/forum/viewtopic.php?f=11&t=133)
 
-## File Lists
+## List of files: 
 
 OBD PIDs 
 
@@ -17,11 +17,11 @@ For Analysis
 - Spreadsheet_IoniqEV_BMS_2101_2105 - Response of PID and sensor mapping
 
 
-## Tips For The Torque Pro User
+## Tips for the Torque Pro user:
 To see temperatures in Fahrenheit change the unit settings in Torque, don't change the file.
 
-## TODO
+## TODO:
 Most of the PIDs from the Kia Soul EV are working for Ioniq. Check compatible PID and merge into Ioniq PID.
 
-## Glossary
+## Glossary:
 The BMS is the Battery Management System for the High Voltage battery.
