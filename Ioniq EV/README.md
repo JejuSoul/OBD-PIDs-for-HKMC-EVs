@@ -1,6 +1,6 @@
 # OBD PIDs for the Hyundai Ioniq Electric
 
-## For the Hyundai Ioniq Electric - see [Setting up Torque to show BMS data on the Ioniq EV](http://myioniq.com/forum/viewtopic.php?f=11&t=133)
+## How to Use: [Setting up Torque to show BMS data on the Ioniq EV](http://myioniq.com/forum/viewtopic.php?f=11&t=133)
 
 ## File Lists
 
