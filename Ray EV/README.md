@@ -10,8 +10,8 @@ Or this can be done manually. (Using the Kia Soul EV as an example.)
 
 OBD PIDs 
 
-- Ray_EV_BMS_data.csv - Data from the High Voltage battery.
-- Ray_EV_BMS_cell_data - The 96 cell voltages of the High Voltage battery.
+- Kia_Ray_EV_BMS_data.csv - Data from the High Voltage battery.
+- Kia_Ray_EV_BMS_cell_data - The 96 cell voltages of the High Voltage battery.
 
 ## Tips for the Torque Pro user:
 To see temperatures in Fahrenheit change the unit settings in Torque, don't change the file.
