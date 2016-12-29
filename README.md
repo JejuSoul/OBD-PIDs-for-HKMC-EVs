@@ -1,6 +1,6 @@
 # OBD-PIDs-for-HKMC-EVs
 OBD PIDs for Hyundai/Kia/Motor/Company Electric Vehicles.
-Currently the Hyundai Ioniq Electric and Kia Soul EV
+Currently the Hyundai Ioniq Electric, Kia Ray EV and Kia Soul EV
 
 ## How to use?
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets.
