@@ -2,12 +2,12 @@
 OBD PIDs for Hyundai/Kia/Motor/Company Electric Vehicles.
 Currently the Hyundai Ioniq Electric, Kia Ray EV and Kia Soul EV
 
-## How to use?
+## How to use:
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets.
 The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin.
 Or this can be done manually. [Setting up Torque to show BMS data](http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=471)
 
-## What hardware do I need
+## What hardware do I need?
 Almost all users are using a Bluetooth Diagnostic Scanner connected to an android phone ot tablet running Torque Pro.
 We recommend the Konnwei KW902. See - [recommended obd2 adapter](http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=711)
 
@@ -19,7 +19,7 @@ No one has yet tested that this works.
 Try Car Scanner Pro and a OBDLink MX Bluetooth
 One user has tested this and has stated it is mostly working.
 
-## Required Software
+## Required Software:
 [Torque Pro](https://play.google.com/store/apps/details?id=org.prowl.torque)
 or
 [Engine Link](https://itunes.apple.com/us/app/engine-link-obd-ii-vehicle/id591557194?mt=8)
