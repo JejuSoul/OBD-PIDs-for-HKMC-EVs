@@ -1,6 +1,9 @@
 # OBD PIDs for the Hyundai Ioniq Electric
 
-## How to Use: [Setting up Torque to show BMS data on the Ioniq EV](http://myioniq.com/forum/viewtopic.php?f=11&t=133)
+## How to use:
+
+These codes are primarily for use with Torque Pro which runs on Android phones and tablets. The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin.
+Or this can be done manually. [Setting up Torque to show BMS data on the Ioniq EV](http://myioniq.com/forum/viewtopic.php?f=11&t=133)
 
 ## File Lists
 
