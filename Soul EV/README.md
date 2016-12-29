@@ -35,11 +35,11 @@ For Analysis
 The following units can be converted by changing the unit settings in Torque itself.
 There is no need to change these files.
 
-Temperatures: Celsius -> Fahrenheit.
+- Temperatures: Celsius -> Fahrenheit.
 
-Pressures: psi -> bar.
+- Pressures: psi -> bar.
 
-Speed: km/h -> mph
+- Speed: km/h -> mph
 
 
 ## Glossary:
