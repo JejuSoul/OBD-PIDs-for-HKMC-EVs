@@ -6,10 +6,14 @@
 000_Battery Inlet Temperature,Batt InletT,2101,Signed(W),-40,80,C,7E4
 000_Battery Max Temperature,Batt MaxT,2101,Signed(O),-40,80,C,7E4
 000_Battery Min Temperature,Batt MinT,2101,Signed(P),-40,80,C,7E4
-000_Battery Module 5 Temperature,Batt Temp5,2101,Signed(U),-40,80,C,7E4
-000_Battery Module 6 Temperature,Batt Temp6,2105,Signed(J),-40,80,C,7E4
-000_Battery Module 7 Temperature,Batt Temp7,2105,Signed(K),-40,80,C,7E4
-000_Battery Module 8 Temperature,Batt Temp8,2105,Signed(L),-40,80,C,7E4
+000_Battery Module 01 Temperature,Batt Temp01,2101,Signed(Q),-40,80,C,7E4
+000_Battery Module 02 Temperature,Batt Temp02,2101,Signed(R),-40,80,C,7E4
+000_Battery Module 03 Temperature,Batt Temp03,2101,Signed(S),-40,80,C,7E4
+000_Battery Module 04 Temperature,Batt Temp04,2101,Signed(T),-40,80,C,7E4
+000_Battery Module 05 Temperature,Batt Temp05,2101,Signed(U),-40,80,C,7E4
+000_Battery Module 06 Temperature,Batt Temp06,2105,Signed(J),-40,80,C,7E4
+000_Battery Module 07 Temperature,Batt Temp07,2105,Signed(K),-40,80,C,7E4
+000_Battery Module 08 Temperature,Batt Temp08,2105,Signed(L),-40,80,C,7E4
 000_Battery Module 09 Temperature,Batt Temp09,2105,Signed(M),-40,80,C,7E4
 000_Battery Module 10 Temperature,Batt Temp10,2105,Signed(N),-40,80,C,7E4
 000_Battery Module 11 Temperature,Batt Temp11,2105,Signed(O),-40,80,C,7E4
