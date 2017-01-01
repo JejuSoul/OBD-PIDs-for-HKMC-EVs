@@ -34,3 +34,7 @@
 000_Operating Time,OpTime,2101,((au<24)+(av<16)+(aw<8)+ax)/3600,0,1000000,hours,7E4
 000_State of Charge BMS,SOC BMS,2101,e/2,0,100,%,7E4
 000_State of Charge Display,SOC Display,2105,af/2,0,100,%,7E4
+000_Inverter Capacitor Voltage,Capacitor,2101,((az<8)+ba)/10,0,500,V,7E4
+000_Drive Motor Speed 1,Motor RPM 1,2101,(Signed(BB)*256)+BC,-5000,5000,rpm,7E4
+000_Drive Motor Speed 2,Motor RPM 2,2101,(Signed(BD)*256))+BE,-5000,5000,rpm,7E4
+000_Isolation Resistance,Resistance,2101,((bf<8)+bg),0,1000,kOhm,7E4
