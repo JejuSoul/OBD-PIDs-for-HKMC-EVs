@@ -1,11 +1,11 @@
 002_Normal Charge Port,Slowcharger,2101,{j:5},0,1,,7.00E+04
 002_Rapid Charge Port,Fastcharger,2101,{j:6},0,1,,7.00E+04
-002_OBC_Charging_Current,ChargeAmps,2102,((n<8)+o)/10,0,400,A,794
-002_OBC_Charging_Voltage,ChargeVolts,2102,((i<8)+j)/10,0,400,V,794
-002_OBC_OutputVolts,OutputVolts,2102,((k<8)+l)/10,0,400,V,794
-002_OBC_Pilot_Duty_Cycle,Pilot_Duty,2102,s/3,0,86,A,794
-002_OBC Temp 1,OBC heatsink,2102,Signed(T),-40,80,C,794
-002_OBC Temp 2,Inside OBC,2102,Signed(U),-40,80,C,794
+002_OBC_Charging_Current,ChargeAmps,2102,((l<8)+m)/10,0,400,A,794
+002_OBC_Charging_Voltage,ChargeVolts,2102,((g<8)+h)/10,0,400,V,794
+002_OBC_OutputVolts,OutputVolts,2102,((i<8)+j)/10,0,400,V,794
+002_OBC_Pilot_Duty_Cycle,Pilot_Duty,2102,q/3,0,86,A,794
+002_OBC Temp 1,OBC heatsink,2102,Signed(r),-40,80,C,794
+002_OBC Temp 2,Inside OBC,2102,Signed(s),-40,80,C,794
 002_OBC_Charging_Power,ChargePower,2102,(val{002_OBC_Charging_Current}*val{002_OBC_Charging_Voltage})/1000,0,400,kW,794
 002_OBC_Efficiency,OBC_Efficiency,2102,ABS(val{000_Battery Power}/val{002_OBC_Charging_Power})*100,0,100,%,794
 002_OBC_Amps_Limit,Amps_Limit,2102,val{002_OBC_Pilot_Duty_Cycle}*0.6,0,52,A,794
