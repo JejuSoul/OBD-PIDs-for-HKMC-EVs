@@ -3,7 +3,7 @@
 ## How to use:
 
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets. The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin.
-Or this can be done manually. [Setting up Torque to show BMS data](http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=471)
+Or this can be done manually. [Setting up Torque to show BMS data](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/)
 
 ## List of files: 
 
