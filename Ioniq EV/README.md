@@ -9,12 +9,13 @@ Or this can be done manually. [Setting up Torque to show OBD data on the Ioniq E
 
 OBD PIDs 
 
-- Hyundai_Ioniq_EV_BMS_data.csv - Data from the High Voltage battery.
-- Hyundai_Ioniq_EV_BMS_cell_data - The 96 cell voltages of the High Voltage battery.
+- `Hyundai_Ioniq_EV_BMS_data.csv` :- Data from the High Voltage battery.
+- `Hyundai_Ioniq_EV_BMS_cell_data` :- The 96 cell voltages of the High Voltage battery.
+- `Hyundai_Ioniq_EV_Extra_gauges.csv` :- Extra values calculated from the PID data.
 
 For Analysis
 
-- Spreadsheet_IoniqEV_BMS_2101_2105 - Response of PID and sensor mapping
+- `Spreadsheet_IoniqEV_BMS_2101_2105.xls` :- Response of PID and sensor mapping
 
 
 ## Tips for the Torque Pro user:
