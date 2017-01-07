@@ -26,21 +26,23 @@ title: {{ site.name }}
  BMS data for Kia Soul EV using Torque Pro<br />, The 96 individual cell voltages are in a separate file
 
 <br />    Torque provides a  method for bulk loading multiple PIDs into memory by reading them in from a file.
-<br />    Create a text file and copy the code above into it : (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) 
-<br />    Install a File Manager application (Astro File Manager is commonly used. I use Ghost Commander.).
-<br />    Open the File Manager and navigate to the home Torque folder
- (commonly this is &quot;/mnt/sdcard/.torque&quot; OR &quot;/.torque&quot;. 
-<br />    The .torque folder is hidden by default in the Android file structure.
+ <ul>
+<li>    Create a text file and copy the code above into it : (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) </li>
+<li>     Install a File Manager application (Astro File Manager is commonly used. I use Ghost Commander.).</li>
+<li>     Open the File Manager and navigate to the home Torque folder
+ (commonly this is &quot;/mnt/sdcard/.torque&quot; OR &quot;/.torque&quot;. </li>
+<li>     The .torque folder is hidden by default in the Android file structure.</li>
  You must enable the viewing of hidden files within the file manager to be able to see it.
-<br />    Copy the file downloaded above (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) in to the &quot;extendedpids&quot; folder
- (create it if it doesn't already exist).
-<br />    Exit the file manager and re-open Torque.
-<br />    Go to &quot;Settings&quot; and then scroll down to &quot;Manage extra PIDs/Sensors&quot;
-<br />    Press the Menu button on the device (looks like upside down box) and then press &quot;Add predefined set&quot;
-<br />    Select &quot;Kia_Soul_EV_TPMS_data&quot; to add them as a predefined PID list.
-<br />    Return to the Torque main screen by hitting the Back button (backwards arrow) several times.
-<br />    Press the &quot;Realtime Information&quot; button on the main screen to go to the gauges screen.
-<br />    Long press (press and hold) any area on the screen to bring up a list of options about adding / editing existing gauges.
- When adding a gauge, the PIDs added manually should be selectable as options.<br />
+<li>     Copy the file downloaded above (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) in to the &quot;extendedpids&quot; folder
+ (create it if it doesn't already exist).</li>
+<li>     Exit the file manager and re-open Torque.</li>
+<li>     Go to &quot;Settings&quot; and then scroll down to &quot;Manage extra PIDs/Sensors&quot;</li>
+<li>    Press the Menu button on the device (looks like upside down box) and then press &quot;Add predefined set&quot;</li>
+<li>   Select &quot;Kia_Soul_EV_TPMS_data&quot; to add them as a predefined PID list.</li>
+<li>    Return to the Torque main screen by hitting the Back button (backwards arrow) several times.</li>
+<li>    Press the &quot;Realtime Information&quot; button on the main screen to go to the gauges screen.</li>
+<li>    Long press (press and hold) any area on the screen to bring up a list of options about adding / editing existing gauges.
+ When adding a gauge, the PIDs added manually should be selectable as options.</li>
+ </ul>
     The gauges should be updating regularly at this point.
 </div>
