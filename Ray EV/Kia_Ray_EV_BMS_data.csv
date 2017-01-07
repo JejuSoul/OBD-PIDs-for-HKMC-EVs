@@ -30,3 +30,4 @@
 000_Inverter Capacitor Voltage,BMS Capacitor,2101,((az<8)+ba),0,500,V,7E4
 000_Drive Motor Speed 1,Motor RPM 1,2101,(Signed(BB)*256)+BC,-5000,5000,rpm,7E4
 000_Drive Motor Speed 2,Motor RPM 2,2101,(Signed(BD)*256))+BE,-5000,5000,rpm,7E4
+000_Battery Cell Voltage Deviation,Voltage Deviation,2105,u/50,0,4.2,V,7E4
