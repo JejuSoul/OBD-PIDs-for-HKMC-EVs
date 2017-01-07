@@ -4,7 +4,7 @@
 <h1>Setting up Torque Pro to show OBD data on Hyundai / Kia Electric Vehicles
 
 </h1>
-<p>[quote][color=#0000FF][b]---------------------------------------------------
+<p>
 
 Torque is an application for Android tablets and smartphones that interfaces with OBD2 enabled devices (via bluetooth or USB) and provides visual feedback in the form of gauges and digital readouts of the various parameters and values provided.
 Torque is normally used with ICE cars but by adding new parameters can be used by the Soul EV.
@@ -22,7 +22,7 @@ You don't need to download and install all of these. You can pick and choose the
 
 
 Here are the codes for the Low-Voltage DC-DC Converter  LDC. - save as "Kia_Soul_EV_LDC.csv"
-[code]
+
 , Low-Voltage DC-DC Converter LDC data for Kia Soul EV using Torque Pro
 Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
 004_DC_Current_Out,AmpsOut,2101,g,0,255,A,7C5
@@ -30,7 +30,7 @@ Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
 004_DC_Voltage_In,VoltsIn,2101,h*2,0,510,V,7C5
 004_LDC Temp 1,LDC Temp 1,2101,i-100,-100,155,C,7C5
 004_Low_Voltage_Power,LDC_Power,2101,val{004_DC_Voltage_Out}*val{004_DC_Current_Out},0,400,W,7C5
-[/code]
+
 
 
 
