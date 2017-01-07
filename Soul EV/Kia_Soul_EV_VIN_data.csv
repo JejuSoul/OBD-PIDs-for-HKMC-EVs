@@ -1,0 +1,4 @@
+005_BaseTrim, Base Trim, 0902, ABS(val{005_PlusTrim} - 1), 0, 1, , 7E2
+005_PlusTrim, Plus Trim, 0902, {F:3}, 0, 1, , 7E2
+005_SequentialNumber, Seq No, 0902, ((M - 48) * 100000) + ((N - 48) * 10000) + ((O - 48) * 1000) + ((P - 48) *100) + ((Q - 48) * 10) + (R - 48), 0, 999999, , 7E2
+005_Year, Year, 0902, K+1945, 2014, 2035, , 7E2
