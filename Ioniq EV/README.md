@@ -24,4 +24,5 @@ To see temperatures in Fahrenheit change the unit settings in Torque, don't chan
 Most of the PIDs from the Kia Soul EV are working for Ioniq. Check compatible PID and merge into Ioniq PID.
 
 ## Glossary:
-The BMS is the Battery Management System for the High Voltage battery.
+
+For an explanation of the acronyms see the [Glossary](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/glossary.html)
