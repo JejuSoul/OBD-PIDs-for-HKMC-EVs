@@ -43,14 +43,4 @@ TPMS | `7D6` | `7DE`
 
 ## Glossary:
 
-**BMS** is the Battery Management System for the High Voltage battery.
-
-**TPMS** codes measure Tire Pressure.
-
-**OBC** is the On Board Charger, used for slow L1 and L2 AC charging.
-
-**VMCU** is Vehicle Motor Control System.
-
-**LDC** is Low-Voltage DC-DC Converter, used to charge the 12V battery and run the car electronics.
-
-**VIN** is the vehicle identification number, also called a chassis number.
+For an explanation of the acronyms see the [Glossary](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/glossary.html)
