@@ -3,7 +3,7 @@
 ## How to use:
 
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets. The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin.
-Or this can be done manually. [Setting up Torque to show BMS data on the Ioniq EV](http://myioniq.com/forum/viewtopic.php?f=11&t=133)
+Or this can be done manually. [Setting up Torque to show OBD data on the Ioniq EV](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/)
 
 ## List of files: 
 
