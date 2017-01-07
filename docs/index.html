@@ -5,12 +5,15 @@
 <p>
 
 
-<br /><br />Torque is an application for Android tablets and smartphones that interfaces with OBD2 enabled devices (via bluetooth or USB) and provides visual feedback in the form of gauges and digital readouts of the various parameters and values provided.
+<br /><br />Torque is an application for Android tablets and smartphones that interfaces with OBD2 enabled devices
+ (via bluetooth or USB) and provides visual feedback in the form of gauges and digital readouts
+ of the various parameters and values provided.
 <br />Torque is normally used with ICE cars but by adding new parameters can be used by the Soul EV.
 <br />The advantage of Torque is that it is really flexible in graphing and displaying data.
 <br />Example of Torque Screen showing Kia Soul EV BMS data.<br /><br />
 
 <img src="https://i.imgsafe.org/de5d815.jpg" alt="Screenshot of Torque dials" />
+
 <br /><br />
 <br />The BMS is the Battery Management System. When requested this outputs data from the battery to the OBD2 interface.
 <br />To setup torque to be used on the Kia Soul EV you need to enter these parameter values into torque running on your smartphone.
@@ -23,15 +26,20 @@
 <br />    Torque provides a  method for bulk loading multiple PIDs into memory by reading them in from a file.
 <br />    Create a text file and copy the code above into it : (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) 
 <br />    Install a File Manager application (Astro File Manager is commonly used. I use Ghost Commander.).
-<br />    Open the File Manager and navigate to the home Torque folder (commonly this is ‘/mnt/sdcard/.torque’ OR ‘/.torque’. 
-<br />    The .torque folder is hidden by default in the Android file structure. You must enable the viewing of hidden files within the file manager to be able to see it.
-<br />    Copy the file downloaded above (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) in to the ‘extendedpids’ folder (create it if it doesn't already exist).
+<br />    Open the File Manager and navigate to the home Torque folder
+ (commonly this is &quot;/mnt/sdcard/.torque&quot; OR &quot;/.torque&quot;. 
+<br />    The .torque folder is hidden by default in the Android file structure.
+ You must enable the viewing of hidden files within the file manager to be able to see it.
+<br />    Copy the file downloaded above (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) in to the &quot;extendedpids&quot; folder
+ (create it if it doesn't already exist).
 <br />    Exit the file manager and re-open Torque.
-<br />    Go to “Settings” and then scroll down to “Manage extra PIDs/Sensors”
-<br />    Press the Menu button on the device (looks like upside down box) and then press “Add predefined set”
-<br />    Select “&quot;Kia_Soul_EV_TPMS_data” to add them as a predefined PID list.
+<br />    Go to &quot;Settings&quot; and then scroll down to &quot;Manage extra PIDs/Sensors&quot;
+<br />    Press the Menu button on the device (looks like upside down box) and then press &quot;Add predefined set&quot;
+<br />    Select &quot;Kia_Soul_EV_TPMS_data&quot; to add them as a predefined PID list.
 <br />    Return to the Torque main screen by hitting the Back button (backwards arrow) several times.
-<br />    Press the “Realtime Information” button on the main screen to go to the gauges screen.<br />    Long press (press and hold) any area on the screen to bring up a list of options about adding / editing existing gauges. When adding a gauge, the PIDs added manually should be selectable as options.<br />
+<br />    Press the &quot;Realtime Information&quot; button on the main screen to go to the gauges screen.
+<br />    Long press (press and hold) any area on the screen to bring up a list of options about adding / editing existing gauges.
+ When adding a gauge, the PIDs added manually should be selectable as options.<br />
     The gauges should be updating regularly at this point.
 </body>
 </html>
