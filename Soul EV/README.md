@@ -9,18 +9,18 @@ Or this can be done manually. [Setting up Torque to show OBD data](https://jejus
 
 OBD PIDs 
 
-- Kia_Soul_EV_BMS_cell_data : The 96 cell voltages of the High Voltage battery.
-- Kia_Soul_EV_BMS_data.csv : Data from the High Voltage battery.
-- Kia_Soul_EV_Extra_gauges.csv : Extra values calculated from the PID data.
-- Kia_Soul_EV_LDC_data.csv : Low-Voltage DC-DC Converter data.
-- Kia_Soul_EV_OBC2015_data.csv : On Board Charger data for MY2015 and earlier cars.
-- Kia_Soul_EV_OBC2016_data.csv : On Board Charger data for MY2016 and later cars.
-- Kia_Soul_EV_TPMS_data.csv : Tire Pressure data.
-- Kia_Soul_EV_VIN_data.csv : Vehicle Identification Number data.
-- Kia_Soul_EV_VMCU_data.csv : Vehicle Motor Control System data.
+- `Kia_Soul_EV_BMS_cell_data` :- The 96 cell voltages of the High Voltage battery.
+- `Kia_Soul_EV_BMS_data.csv` :- Data from the High Voltage battery.
+- `Kia_Soul_EV_Extra_gauges.csv` :- Extra values calculated from the PID data.
+- `Kia_Soul_EV_LDC_data.csv` :- Low-Voltage DC-DC Converter data.
+- `Kia_Soul_EV_OBC2015_data.csv` :- On Board Charger data for MY2015 and earlier cars.
+- `Kia_Soul_EV_OBC2016_data.csv` :- On Board Charger data for MY2016 and later cars.
+- `Kia_Soul_EV_TPMS_data.csv` :- Tire Pressure data.
+- `Kia_Soul_EV_VIN_data.csv` :- Vehicle Identification Number data.
+- `Kia_Soul_EV_VMCU_data.csv` :- Vehicle Motor Control System data.
 
 For Analysis
-- Spreadsheet_Kia_Soul_EV_BMS_2101_2105.xls - Response of PID and sensor mapping
+- `Spreadsheet_Kia_Soul_EV_BMS_2101_2105.xls` :- Response of PID and sensor mapping
 
 ## Tips for the Torque Pro user:
 
