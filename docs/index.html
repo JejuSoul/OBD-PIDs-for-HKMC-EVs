@@ -20,20 +20,16 @@ title: {{ site.name }}
 <br />The BMS is the Battery Management System. When requested this outputs data from the battery to the OBD2 interface.
 <br />To setup torque to be used on the Kia Soul EV you need to enter these parameter values into torque running on your smartphone.
 
-<br />You don't need to download and install all of these. You can pick and choose the values you are most interested in.
-<br /><br />Here are the BMS codes to get Battery Data - save as &quot;Kia_Soul_EV_BMS_data.csv&quot;
-<br />
- BMS data for Kia Soul EV using Torque Pro<br />, The 96 individual cell voltages are in a separate file
 
 <br />    Torque provides a  method for bulk loading multiple PIDs into memory by reading them in from a file.
  <ul>
 <li>    Create a text file and copy the code above into it : (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) </li>
 <li>     Install a File Manager application (Astro File Manager is commonly used. I use Ghost Commander.).</li>
-<li>     Open the File Manager and navigate to the home Torque folder
+<li>     Open the File Manager and navigate to the home Torque folder.<br />
  (commonly this is &quot;/mnt/sdcard/.torque&quot; OR &quot;/.torque&quot;. </li>
-<li>     The .torque folder is hidden by default in the Android file structure.</li>
- You must enable the viewing of hidden files within the file manager to be able to see it.
-<li>     Copy the file downloaded above (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) in to the &quot;extendedpids&quot; folder
+<li>     The .torque folder is hidden by default in the Android file structure.<br />
+ You must enable the viewing of hidden files within the file manager to be able to see it.</li>
+<li>     Copy the file downloaded above (&quot;Kia_Soul_EV_TPMS_data.csv&quot;) in to the &quot;extendedpids&quot; folder<br />
  (create it if it doesn't already exist).</li>
 <li>     Exit the file manager and re-open Torque.</li>
 <li>     Go to &quot;Settings&quot; and then scroll down to &quot;Manage extra PIDs/Sensors&quot;</li>
