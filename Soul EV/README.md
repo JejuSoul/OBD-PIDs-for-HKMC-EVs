@@ -16,6 +16,7 @@ OBD PIDs
 - Kia_Soul_EV_OBC2015_data.csv : On Board Charger data for MY2015 and earlier cars.
 - Kia_Soul_EV_OBC2016_data.csv : On Board Charger data for MY2016 and later cars.
 - Kia_Soul_EV_TPMS_data.csv : Tire Pressure data.
+- Kia_Soul_EV_VIN_data.csv : Vehicle Identification Number data.
 - Kia_Soul_EV_VMCU_data.csv : Vehicle Motor Control System data.
 
 For Analysis
@@ -51,3 +52,5 @@ TPMS | `7D6` | `7DE`
 **VMCU** is Vehicle Motor Control System.
 
 **LDC** is Low-Voltage DC-DC Converter, used to charge the 12V battery and run the car electronics.
+
+**VIN** is the vehicle identification number, also called a chassis number.
