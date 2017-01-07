@@ -5,11 +5,11 @@
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets. The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin
 Or this can be done manually. (Using the Kia Soul EV as an example.)
 
-- [Setting up Torque to show BMS data](http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=471)
-- Setting up Torque (Korean, registration required)
+- English: [Setting up Torque to show BMS data](http://www.mykiasoulev.com/forum/viewtopic.php?f=6&t=471)
+- Korean: Setting up Torque (registration required)
   - [Setting up Torque Pro](http://cafe.naver.com/evpoweruser/463)
   - [Adding custom PIDs](http://cafe.naver.com/evpoweruser/465)
-  - [Configureing dashboard](http://cafe.naver.com/evpoweruser/466) 
+  - [Configuring dashboard](http://cafe.naver.com/evpoweruser/466) 
 ## List of files: 
 
 OBD PIDs 
