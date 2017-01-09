@@ -7,7 +7,7 @@ Or this can be done manually. [Setting up Torque to show OBD data](https://jejus
 
 ## List of files: 
 
-OBD PIDs 
+OBD PIDs in the extendedpids folder
 
 - `Kia_Soul_EV_BMS_cell_data` :- The 96 cell voltages of the High Voltage battery.
 - `Kia_Soul_EV_BMS_data.csv` :- Data from the High Voltage battery.
