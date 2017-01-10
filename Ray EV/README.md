@@ -12,7 +12,7 @@ Or this can be done manually. (Using the Kia Soul EV as an example.)
   - [Configuring dashboard](http://cafe.naver.com/evpoweruser/466) 
 ## List of files: 
 
-OBD PIDs 
+OBD PIDs in the extendedpids folder 
 
 - `Kia_Ray_EV_BMS_data.csv` :- Data from the High Voltage battery.
 - `Kia_Ray_EV_BMS_cell_data.csv` :- The 96 cell voltages of the High Voltage battery.
