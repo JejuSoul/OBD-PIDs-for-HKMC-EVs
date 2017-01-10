@@ -4,6 +4,7 @@
 
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets. The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin.
 Or this can be done manually. [Setting up Torque to show OBD data](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/)
+For some info on using Torque Pro. [Tips for using Torque Pro](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/tips.html)
 
 ## List of files: 
 
@@ -21,15 +22,6 @@ OBD PIDs in the extendedpids folder
 
 For Analysis
 - `Spreadsheet_Kia_Soul_EV_BMS_2101_2105.xls` :- Response of PID and sensor mapping
-
-## Tips for the Torque Pro user:
-
-The following units can be converted by changing the unit settings in Torque itself.
-There is no need to change these files.
-
-- Temperatures: Celsius -> Fahrenheit.
-- Pressures: psi -> bar.
-- Speed: km/h -> mph
 
 ## Available ECUs:
 
