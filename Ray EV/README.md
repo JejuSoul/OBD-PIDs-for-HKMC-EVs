@@ -28,4 +28,5 @@ To see temperatures in Fahrenheit change the unit settings in Torque, don't chan
 - Unknown bytes in BMS and OBC (see `Spreadsheet_Kia_Ray_EV_OBC_2101_2102.xls`)  
 
 ## Glossary:
-The BMS is the Battery Management System for the High Voltage battery.
+
+For an explanation of the acronyms see the [Glossary](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/glossary.html)
