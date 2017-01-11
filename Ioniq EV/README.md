@@ -3,11 +3,12 @@
 ## How to use:
 
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets. The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin.
-Or this can be done manually. [Setting up Torque to show OBD data on the Ioniq EV](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/)
+Or this can be done manually. [Setting up Torque to show OBD data](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/)
+For some info on using Torque Pro. [Tips for using Torque Pro](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/tips.html)
 
 ## List of files: 
 
-OBD PIDs 
+OBD PIDs in the extendedpids folder 
 
 - `Hyundai_Ioniq_EV_BMS_data.csv` :- Data from the High Voltage battery.
 - `Hyundai_Ioniq_EV_BMS_cell_data` :- The 96 cell voltages of the High Voltage battery.
@@ -17,9 +18,6 @@ For Analysis
 
 - `Spreadsheet_IoniqEV_BMS_2101_2105.xls` :- Response of PID and sensor mapping
 
-
-## Tips for the Torque Pro user:
-To see temperatures in Fahrenheit change the unit settings in Torque, don't change the file.
 
 ## TODO:
 Most of the PIDs from the Kia Soul EV are working for Ioniq. Check compatible PID and merge into Ioniq PID.
