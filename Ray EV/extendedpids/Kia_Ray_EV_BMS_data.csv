@@ -35,3 +35,4 @@
 000_Battery Cell Voltage Deviation,V Diff,2105,u/50,0.00,0.50,V,7E4
 000_Battery Fan Feedback,Batt Fan SPD,2101,ac,0,1000,Hz,7E4
 000_Battery Fan Status,Batt Fan Mod,2101,ab,0,9,,7E4
+000_Average Cell Voltage,Avg Cell V,2101,val{000_Battery DC Voltage}/88,2.8,4.2,V,7E4
