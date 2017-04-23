@@ -23,8 +23,10 @@
 000_Cumulative Discharge Current,CDC,2101,((ai<24)+(aj<16)+(ak<8)+al)/10,0,1000000,Ah,7E4
 000_Cumulative Energy Charged,CEC,2101,((am<24)+(an<16)+(ao<8)+ap)/10,0,1000000,kWh,7E4
 000_Cumulative Energy Discharged,CED,2101,((aq<24)+(ar<16)+(as<8)+at)/10,0,1000000,kWh,7E4
-000_Maximum Cell Voltage,Max Cell Volts,2101,x/50,2.8,4.2,V,7E4
+000_Maximum Cell Voltage,Max Cell V,2101,x/50,2.8,4.2,V,7E4
 000_Maximum Cell Voltage No.,Max Cell V No.,2101,y,0,96,,7E4
+000_Minimum Cell Voltage,Min Cell V,2101,z/50,0,2,V,7E4
+000_Minimum Cell Voltage No.,Min Cell V No.,2101,aa,0,96,,7E4
 000_Operating Time,OpTime,2101,((au<24)+(av<16)+(aw<8)+ax)/3600,0,1000000,hours,7E4
 000_State of Charge BMS,SOC BMS,2101,e/2,0,100,%,7E4
 000_Inverter Capacitor Voltage,BMS Capacitor,2101,((az<8)+ba),0,500,V,7E4
