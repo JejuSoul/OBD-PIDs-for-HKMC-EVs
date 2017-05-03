@@ -1,5 +1,3 @@
-002_Normal Charge Port,Slowcharger,2101,{j:5},0,1,,7E4
-002_Rapid Charge Port,Fastcharger,2101,{j:6},0,1,,7E4
 002_OBC_Charging_Current,ChargeAmps,2101,((l<8)+m)/10,0,400,A,794
 002_OBC_Charging_Voltage,ChargeVolts,2101,((g<8)+h)/10,0,400,V,794
 002_OBC_OutputVolts,OutputVolts,2101,((i<8)+j)/10,0,400,V,794
