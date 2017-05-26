@@ -37,3 +37,5 @@
 000_Battery Fan Status,Batt Fan Mod,2101,ab,0,9,,7E4
 000_Normal Charge Port,Slowcharger,2101,{j:5},0,1,,7E4
 000_Rapid Charge Port,Fastcharger,2101,{j:6},0,1,,7E4
+000_HV_Charging,Charging,2101,{j:7},0,1,,7E4
+000_BMS Main Relay,BMS Status,2101,{j:0},0,1,,7E4
