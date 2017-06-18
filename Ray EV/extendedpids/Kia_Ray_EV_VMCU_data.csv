@@ -1,11 +1,13 @@
-003_VMCU Gear Stick B,B,2100,{k:5},0,1,,7E2
-003_VMCU Brake Pedal Depth,Brake Pedal,2102,e,0,255,,7E2
-003_VMCU CH tmr Inh,CH,2100,{k:6},0,1,,7E2
+003_VMCU Accel Pedal Depth,Accel Pedal,2101,((0<8)+p)/10,0.0,100.0,%,7E2
+003_VMCU Brake Pedal Depth,Brake Pedal,2102,e,0,100,%,7E2
+003_VMCU Brake Pedal Pushed,Brake,2100,{k:7},0,1,,7E2
 003_VMCU Gear Stick D,D,2100,{k:3},0,1,,7E2
-003_VMCU Gear Stick E,E,2100,{k:4},0,1,,7E2
-003_VMCU Instant Driving Efficiency,Energy Consumption,2101,val{000_Battery Power}*val{003_VMCU Real Vehicle speed}/100,0,120,kWh/100km,7E2
-003_VMCU Instant Driving Efficiency2,Energy Economy,2101,val{003_VMCU Real Vehicle Speed}/val{000_Battery Power},0,16,km/kWh,7E2
+003_VMCU Gear Stick To B,To B,2100,{k:5},0,1,,7E2
+003_VMCU Gear Stick To E,To E,2100,{k:4},0,1,,7E2
+003_VMCU Gear Stick B or E,B or E,2100,{k:6},0,1,,7E2
 003_VMCU Gear Stick N,N,2100,{k:2},0,1,,7E2
 003_VMCU Gear Stick P,P,2100,{k:0},0,1,,7E2
 003_VMCU Gear Stick R,R,2100,{k:1},0,1,,7E2
+003_VMCU Instant Driving Efficiency,Energy Consumption,2101,val{000_Battery Power}*val{003_VMCU Real Vehicle speed}/100,0,120,kWh/100km,7E2
+003_VMCU Instant Driving Efficiency2,Energy Economy,2101,val{003_VMCU Real Vehicle Speed}/val{000_Battery Power},0,16,km/kWh,7E2
 003_VMCU Real Vehicle Speed,Real Speed,2102,h,0,180,km/h,7E2
