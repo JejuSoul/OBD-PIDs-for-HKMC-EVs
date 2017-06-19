@@ -1,6 +1,6 @@
 003_VMCU Accel Pedal Depth,Accel Pedal,2101,((0<8)+p)/10,0.0,100.0,%,7E2
 003_VMCU Brake Pedal Depth,Brake Pedal,2102,e,0,100,%,7E2
-003_VMCU Brake Pedal Pushed,Brake,2100,{k:7},0,1,,7E2
+003_VMCU Brake Lamp,Brake Lamp,2100,{k:7},0,1,,7E2
 003_VMCU Gear Stick D,D,2100,{k:3},0,1,,7E2
 003_VMCU Gear Stick To B,To B,2100,{k:5},0,1,,7E2
 003_VMCU Gear Stick To E,To E,2100,{k:4},0,1,,7E2
