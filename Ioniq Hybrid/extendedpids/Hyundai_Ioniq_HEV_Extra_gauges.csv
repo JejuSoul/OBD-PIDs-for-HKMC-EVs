@@ -1,0 +1,2 @@
+004_CALC Average Battery Module Temperature, Batt AvgT,2101,(val{000_Battery Module 01 Temperature}+val{000_Battery Module 02 Temperature})/2.0,-40,80,C,7E4
+004_CALC Average Cell Voltage,Avg Cell V,2101,val{000_Battery DC Voltage}/64,2.8,4.2,V,7E4
