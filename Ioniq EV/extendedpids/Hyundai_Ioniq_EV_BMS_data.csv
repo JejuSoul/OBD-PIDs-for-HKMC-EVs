@@ -49,4 +49,4 @@
 000_Rapid Charge Port,Chademo Plug,2101,{j:6},0,1,,7E4
 000_State of Charge BMS,SOC BMS,2101,e/2,0,100,%,7E4
 000_State of Charge Display,SOC Display,2105,af/2,0,100,%,7E4
-000_State of Health,SOH,2105,(z<8)+aa,0,100,%,7E4
+000_State of Health,SOH,2105,((z<8)+aa)/10,0,100,%,7E4
