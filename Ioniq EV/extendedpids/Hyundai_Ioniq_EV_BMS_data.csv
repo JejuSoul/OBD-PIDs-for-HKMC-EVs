@@ -38,7 +38,6 @@
 000_Isolation Resistance,Surge Resistor,2101,((bf<8)+bg),0,1000,kOhm,7E4
 000_Maximum Cell Voltage,Max Cell V,2101,x/50,2.8,4.2,V,7E4
 000_Maximum Cell Voltage No.,Max Cell V  No.,2101,y,0,96,,7E4
-000_Maximum Deterioration,Max Det,2105,((z<8)+aa)/10,0,100,%,7E4
 000_Maximum Deterioration Cell No.,Max Det Cell No.,2105,ab,0,96,,7E4
 000_Minimum Cell Voltage,Min Cell V,2101,z/50,2.8,4.2,V,7E4
 000_Minimum Cell Voltage No.,Min Cell V  No.,2101,aa,0,96,,7E4
