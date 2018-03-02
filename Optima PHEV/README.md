@@ -11,11 +11,12 @@ For some info on using Torque Pro. [Tips for using Torque Pro](https://jejusoul.
 OBD PIDs in the extendedpids folder 
 
 - `Kia Optima_PHEV_BMS_data.csv`  :- Data from the High Voltage battery.
-- `Kia Optima_PHEV_BMS_cell_data` :- The 64 cell voltages of the High Voltage battery.
+- `Kia Optima_PHEV_BMS_cell_data` :- The 96 cell voltages of the High Voltage battery.
 - `Kia Optima_PHEV_Extra_gauges`  :- Extra Calculations
 
 ## TODO:
-
+The PID codes for the 2101 response are the same as the other vehicles, but the 2105 block seems to be shifted.
+I have not added the 2105 codes.
 
 ## Glossary:
 
