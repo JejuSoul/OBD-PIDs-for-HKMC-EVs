@@ -1,3 +1,11 @@
 003_VMCU Accel Pedal Depth,Pedal,2101,m/2,0,100,%,7E2
 003_VMCU Accel Pedal Related,Pedal related,2101,l,0,255,,7E2
-
+003_VMCU Brake lamp,Brake lamp,2101,{g:0},0,1,,7E2
+003_VMCU Brake related,Brake related,2101,g,0,255,,7E2
+003_VMCU Brake sw,Brake sw,2101,{g:1},0,1,,7E2
+003_VMCU D,D,2101,{f:3},0,1,,7E2
+003_VMCU N,N,2101,{f:2},0,1,,7E2
+003_VMCU P,P,2101,{f:0},0,1,,7E2
+003_VMCU R,R,2101,{f:1},0,1,,7E2
+003_VMCU MCU Temperature,MCU temp,2102,u-40,-40,80,C,7E2
+003_VMCU Motor Temperature,Motor temp,2102,u-40,-40,125,C,7E2
