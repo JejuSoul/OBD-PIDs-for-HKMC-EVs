@@ -1,4 +1,4 @@
-# OBD PIDs for the Kia Soul EV
+# OBD PIDs for the 27kWh Kia Soul EV - Years 2014 to 2017
 
 ## How to use:
 
@@ -14,8 +14,7 @@ OBD PIDs in the extendedpids folder
 - `Kia_Soul_EV_BMS_data.csv` :- Data from the High Voltage battery.
 - `Kia_Soul_EV_Extra_gauges.csv` :- Extra values calculated from the PID data.
 - `Kia_Soul_EV_LDC_data.csv` :- Low-Voltage DC-DC Converter data.
-- `Kia_Soul_EV_OBC2015_data.csv` :- On Board Charger data for MY2015 and earlier cars.
-- `Kia_Soul_EV_OBC2016_data.csv` :- On Board Charger data for MY2016 and later cars.
+- `Kia_Soul_EV_OBC2016_data.csv` :- On Board Charger data.
 - `Kia_Soul_EV_TPMS_data.csv` :- Tire Pressure data.
 - `Kia_Soul_EV_VIN_data.csv` :- Vehicle Identification Number data.
 - `Kia_Soul_EV_VMCU_data.csv` :- Vehicle Motor Control System data.
