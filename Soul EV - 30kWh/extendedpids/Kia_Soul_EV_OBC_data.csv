@@ -1,0 +1,10 @@
+002_OBC_Charging_Voltage,ChargeVolts,2102,((g<8)+h)/10,0,400,V,794
+002_OBC_OutputVolts,OutputVolts,2102,((m<8)+n)/10,0,400,V,794
+002_OBC_Charging_Current,ChargeAmps,2102,((o<8)+p)/10,0,400,A,794
+002_OBC_Pilot_Duty_Cycle,Pilot_Duty,2102,r/3,0,86,%,794
+002_OBC temp heatsink,OBC heatsink,2102,Signed(S),-40,80,C,794
+002_OBC temp inside,OBC inside,2102,Signed(T),-40,80,C,794
+002_OBC Temp water,OBC Water,2102,Signed(U),-40,80,C,794
+002_OBC_Charging_Power,ChargePower,2102,(val{002_OBC_Charging_Current}*val{002_OBC_Charging_Voltage})/1000,0,400,kW,794
+002_OBC_Efficiency,OBC_Efficiency,2102,ABS(val{000_Battery Power}/val{002_OBC_Charging_Power})*100,0,100,%,794
+002_OBC_Amps_Limit,Amps_Limit,2102,val{002_OBC_Pilot_Duty_Cycle}*0.6,0,52,A,794

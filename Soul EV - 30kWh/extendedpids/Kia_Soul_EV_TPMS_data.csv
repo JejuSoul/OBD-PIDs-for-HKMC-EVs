@@ -1,0 +1,12 @@
+001_TPMS_ID Front Left,TPMS_ID_FL,2106,(a<24)+(b<16)+(c<8)+d,0,100,,7D6
+001_TPMS_ID Front Right,TPMS_ID_FR,2106,(i<24)+(j<16)+(k<8)+l,0,100,,7D6
+001_TPMS_ID Back Left,TPMS_ID_BL,2106,(q<24)+(r<16)+(s<8)+t,0,100,,7D6
+001_TPMS_ID Back Right,TPMS_ID_BR,2106,(y<24)+(z<16)+(aa<8)+ab,0,100,,7D6
+001_Tire Pressure Front Left,Tire Pre_FL,2106,e/4,0.00,120.00,psi,7D6
+001_Tire Pressure Front Right,Tire Pre_FR,2106,m/4,0.00,120.00,psi,7D6
+001_Tire Pressure Back Left,Tire Pre_BL,2106,u/4,0.00,120.00,psi,7D6
+001_Tire Pressure Back Right,Tire Pre_BR,2106,ac/4,0.00,120.00,psi,7D6
+001_Tire Temperature Front Left,Tire Temp_FL,2106,f-55,-40,65,C,7D6
+001_Tire Temperature Front Right,Tire Temp_FR,2106,n-55,-40,65,C,7D6
+001_Tire Temperature Back Left,Tire Temp_BL,2106,v-55,-40,65,C,7D6
+001_Tire Temperature Back Right,Tire Temp_BR,2106,ad-55,-40,65,C,7D6

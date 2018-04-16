@@ -1,0 +1,5 @@
+004_DC_Current_Out,LDC AmpsOut,2101,g,0,80,A,7C5
+004_DC_Voltage_Out,LDC VoltsOut,2101,f/10,0.0,14.6,V,7C5
+004_DC_Voltage_In,LDC VoltsIn,2101,h*2,0,403,V,7C5
+004_LDC Temp 1,LDC Temp 1,2101,i-100,-40,80,C,7C5
+004_Low_Voltage_Power,LDC_Power,2101,val{004_DC_Voltage_Out}*val{004_DC_Current_Out},0.0,1100.0,W,7C5
