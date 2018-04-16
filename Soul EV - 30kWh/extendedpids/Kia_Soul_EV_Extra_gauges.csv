@@ -5,9 +5,9 @@
 004_CALC AVRDET,Average DET,2101,val{004_CALC MaxMin DET}/2,0.0,100.0,%,7E2
 004_CALC AVRDET For SOH,Lost SOH,2101,10-val{004_CALC AVRDET},-100.0,10.0,%,7E2
 004_CALC AVRDET For SOH Divided 100,AVRDET3,2101,val{004_CALC AVRDET For SOH}/100,0,1,,7E2
-004_CALC Lost of SOH,Lost SOH,2101,27*val{004_CALC AVRDET For SOH Divided 100},0.00,27.00,kWh,7E2
-004_CALC SOH Battery in kWh,SOH in kWh,2101,27+val{004_CALC Lost of SOH},0.00,31.00,kWh,7E2
-004_CALC SOH Battery in 100 ratio,SOH in %,2101,val{004_CALC SOH Battery in kWh}/27*100,0.0,110.0,%,7E2
+004_CALC Lost of SOH,Lost SOH,2101,30*val{004_CALC AVRDET For SOH Divided 100},0.00,30.00,kWh,7E2
+004_CALC SOH Battery in kWh,SOH in kWh,2101,30+val{004_CALC Lost of SOH},0.00,34.00,kWh,7E2
+004_CALC SOH Battery in 100 ratio,SOH in %,2101,val{004_CALC SOH Battery in kWh}/30*100,0.0,110.0,%,7E2
 004_CALC Instant Remaining Kilometers,MAX Km,2101,val{003_VMCU Instant Driving Efficiency2}*val{004_CALC SOH Battery in kWh}*val{004_CALC SOC Display Minus Security Divided 100},0,256,km,7E2
 004_CALC Instant Remaining Minutes,MAX Minutes,2101,val{004_CALC SOH Battery in kWh}*val{004_CALC SOC Display Minus Security Divided 100}/val{003_VMCU Instant Driving Efficiency}*60,0,240,min,7E2
 004_CALC Instant Remaining kWh,MAX kWh,2101,val{004_CALC SOH Battery in kWh}*val{000_State of Charge BMS}/100,0,30,kWh,7E2
@@ -18,7 +18,7 @@
 004_CALC Average on 60s Remaining Kilometers,MAX Km (60s),2101,AVG(30:ABS(val{004_CALC Instant Remaining Kilometers})),0,256,km,7E2
 004_CALC Average on 60s Remaining Minutes,MAX Min (60s),2101,AVG(30:ABS(val{004_CALC Instant Remaining Minutes})),0,240,min,7E2
 004_CALC Average Battery Module Temperature,Batt AvgT,2101,(val{000_Battery Module 1 Temperature}+val{000_Battery Module 2 Temperature}+val{000_Battery Module 3 Temperature}+val{000_Battery Module 4 Temperature}+val{000_Battery Module 5 Temperature}+val{000_Battery Module 6 Temperature}+val{000_Battery Module 7 Temperature}+val{000_Battery Module 8 Temperature})/8.0,-40.0,80.0,C,7E4
-004_CALC Average Cell Voltage,Avg Cell V,2101,val{000_Battery DC Voltage}/96,2.800,4.200,V,7E4
+004_CALC Average Cell Voltage,Avg Cell V,2101,val{000_Battery DC Voltage}/100,2.800,4.200,V,7E4
 004_CALC SOC before 84,from 5 to 84,2101,0.800-(val{000_State of Charge BMS}/100),0.000,0.750,,7E2
 004_CALC SOC before 94,from 84 to 94,2101,0.900-(val{000_State of Charge BMS}/100),0.000,0.100,,7E2
 004_CALC SOC before 100,from 5 to 100,2101,0.950-(val{000_State of Charge BMS}/100),0.000,0.090,,7E2
