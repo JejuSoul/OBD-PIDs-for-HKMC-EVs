@@ -8,4 +8,3 @@
 003_VMCU P,P,2101,{f:0},0,1,,7E2
 003_VMCU R,R,2101,{f:1},0,1,,7E2
 003_VMCU MCU Temperature,MCU temp,2102,u-40,-40,80,C,7E2
-003_VMCU Motor Temperature,Motor temp,2102,u-40,-40,125,C,7E2
