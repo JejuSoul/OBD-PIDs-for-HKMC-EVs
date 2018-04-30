@@ -30,3 +30,4 @@
 003_VMCU R,R,2100,{h:1},0,1,,7E2
 003_VMCU Radiator Fan,Radiator Fan,2100,{n:3},0,1,,7E2
 003_VMCU Real Vehicle Speed,Real Speed,2101,k,0,180,km/h,7E2
+003_VMCU Brakes On,Brakes On,2100,{J:1} -1 * -1},0,1,,7E2
