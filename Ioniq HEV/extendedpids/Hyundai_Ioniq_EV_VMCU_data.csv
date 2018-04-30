@@ -1,0 +1,10 @@
+003_VMCU Accel Pedal Depth,Pedal,2101,m/2,0,100,%,7E2
+003_VMCU Accel Pedal Related,Pedal related,2101,l,0,255,,7E2
+003_VMCU Brake lamp,Brake lamp,2101,{g:0},0,1,,7E2
+003_VMCU Brake related,Brake related,2101,g,0,255,,7E2
+003_VMCU Brakes On,Brakes On,2101,{g:1} -1 * -1},0,1,,7E2
+003_VMCU D,D,2101,{f:3},0,1,,7E2
+003_VMCU N,N,2101,{f:2},0,1,,7E2
+003_VMCU P,P,2101,{f:0},0,1,,7E2
+003_VMCU R,R,2101,{f:1},0,1,,7E2
+003_VMCU Real Vehicle Speed,Real Speed,2101,((Signed(O)*256)+N)/100,0,180,mph,7E2
