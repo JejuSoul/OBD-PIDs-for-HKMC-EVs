@@ -8,4 +8,4 @@
 003_VMCU P,P,2101,{f:0},0,1,,7E2
 003_VMCU R,R,2101,{f:1},0,1,,7E2
 003_VMCU Real Vehicle Speed,Real Speed,2101,((Signed(O)*256)+N)/100,0,180,mph,7E2
-003_VMCU Motor Actual Speed RPM,Speed rpm,2102,((Signed(f)*256)+e),-10100,10100,rpm,7E2
+003_VMCU Motor Actual Speed RPM,Speed rpm,2102,((Signed(F)*256)+E),-10100,10100,rpm,7E2
