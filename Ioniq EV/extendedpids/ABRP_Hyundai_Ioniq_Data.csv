@@ -1,0 +1,20 @@
+Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
+~Modifications by Jason Rapp for ABRP data contribution,List Credit,,,,,,
+!_ABRP_Battery Current,Batt Current,,val{zzz_Battery_Current},-230,230,A,
+!_ABRP_Battery DC Voltage,Batt Volts,,val{zzz_Battery_Voltage},268.8,403.2,V,
+!_ABRP_Battery Inlet Temperature,Batt InletT,,val{zzz_Battery_Inlet_Temp},-40,80,C,
+!_ABRP_Battery Power,Energy Draw,,val{zzz_Battery_Current}*val{zzz_Battery_Voltage}/1000,-90,90,kW,
+!_ABRP_HV_Charging,Charging,,val{zzz_HV_Charging},0,1,,
+!_ABRP_State of Charge BMS,SOC BMS,,val{zzz_Battery_SoC},0,100,%,
+!_ABRP_State of Charge Display,SOC Display,,val{zzz_Displayed_SoC},0,100,%,
+!_ABRP_State of Health,SOH,,val{zzz_Battery_State_of_Health},0,100,%,
+!_ABRP_VMCU Real Vehicle Speed,Real Speed,,val{zzz_OBD_Speed},0,180,mph,
+zzz_Battery_Current,Unused,2101,((Signed(K)*256)+L)/10,-230,230,A,7.00E+04
+zzz_Battery_Voltage,Unused,2101,((m<8)+n)/10,268.8,403.2,V,7.00E+04
+zzz_Battery_Inlet_Temp,Unused,2101,Signed(W),-40,80,C,7.00E+04
+zzz_Battery_Power,Unused,2101,val{000_Battery Current}*val{000_Battery DC Voltage}/1000,-90,90,kW,7.00E+04
+zzz_HV_Charging,Unused,2101,{j:7},0,1,,7.00E+04
+zzz_Battery_SoC,Unused,2101,e/2,0,100,%,7.00E+04
+zzz_Displayed_SoC,Unused,2105,af/2,0,100,%,7.00E+04
+zzz_Battery_State_of_Health,Unused,2105,((z<8)+aa)/10,0,100,%,7.00E+04
+zzz_OBD_Speed,Unused,2101,((Signed(O)*256)+N)/100,0,180,mph,7.00E+02
