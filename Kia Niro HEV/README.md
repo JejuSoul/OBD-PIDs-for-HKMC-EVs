@@ -10,13 +10,14 @@ For some info on using Torque Pro. [Tips for using Torque Pro](https://jejusoul.
 
 OBD PIDs in the extendedpids folder 
 
-- `Niro_HEV_BMS_data.csv` :- Data from the High Voltage battery.
-- `Niro_HEV_BMS_cell_data` :- The 64 cell voltages of the High Voltage battery.
+- `000_Niro_HEV_BMS_data.csv` :- Data from the High Voltage battery.
+- `001_Niro_HEV_BMS_cell_data` :- The 64 cell voltages of the High Voltage battery.
+- `002_Niro_HEV_Extra_gauges` :- Adittional BMS calculated info.
+- `003_Niro_EV_VMCU_data` :- Adittional PIDs from Soul EV working on Niro.
 
 
 ## TODO:
-Most of the PIDs from the Kia Soul EV are working for Ioniq and Niro. Check compatible PID and merge into Ioniq PID.
+Most of the PIDs from the Kia Soul EV are working for Ioniq and Niro. Check compatible PID and merge into Niro PID.
 
-## Glossary:
-
-For an explanation of the acronyms see the [Glossary](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/glossary.html)
+## References:
+All merits for this PIDs are from the original dev from https://github.com/JejuSoul
