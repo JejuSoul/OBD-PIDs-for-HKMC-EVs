@@ -10,11 +10,10 @@ For some info on using Torque Pro. [Tips for using Torque Pro](https://jejusoul.
 
 OBD PIDs in the extendedpids folder 
 
+- `0_Niro_PIDs_final.csv`:- Tested working PIDs.
 - `000_Niro_HEV_BMS_data.csv` :- Data from the High Voltage battery.
 - `001_Niro_HEV_BMS_cell_data` :- The 64 cell voltages of the High Voltage battery.
 - `002_Niro_HEV_Extra_gauges` :- Adittional BMS calculated info.
-- `003_Niro_EV_VMCU_data` :- Adittional PIDs from Soul EV working on Niro.
-
 
 ## TODO:
 Most of the PIDs from the Kia Soul EV are working for Ioniq and Niro. Check compatible PID and merge into Niro PID.
