@@ -1,4 +1,6 @@
-# OBD PIDs for the Kia Niro HEV
+# OBD PIDs for the Kia Niro PHEV
+
+This PIDs are based on the Kia Niro HEV PIDs, adding cell voltage and all modules temp from ioniq PHEV PIDs. Unafortunally I can't check this PIDs in a PHEV model so ther are untested.
 
 ## How to use:
 
@@ -10,12 +12,10 @@ For some info on using Torque Pro. [Tips for using Torque Pro](https://jejusoul.
 
 OBD PIDs in the extendedpids folder 
 
-- `Niro_HEV_BMS_data.csv` :- Data from the High Voltage battery.
-- `Niro_HEV_BMS_cell_data` :- The 64 cell voltages of the High Voltage battery.
-
+- `0_Niro_PIDs_final.csv`:- Tested working PIDs included BMS data, cell data and extra gauges.
 
 ## TODO:
-Most of the PIDs from the Kia Soul EV are working for Ioniq and Niro. Check compatible PID and merge into Ioniq PID.
+Testing, testing and testing, and adjusting values to match PHEV specs.
 
 ## Glossary:
 
