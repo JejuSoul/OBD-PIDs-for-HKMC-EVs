@@ -1,3 +1,3 @@
 000_Auxillary Battery SOC,Aux Batt SOC,2102,X,0,100,%,7E2
-000_Auxillary Battery Current,Aux Batt CURR,2102,INT16(W:V)/100,-100,100,A,7E2
-000_Niro_Auxillary Battery Voltage,Aux Batt Volts,2102,INT16(U:T)/1000.1,11,14.6,V,7E2
+000_Auxillary Battery Current,Aux Batt CURR,2102,(SIGNED(W)*256+V)/100,-100,100,A,7E2
+000_Niro_Auxillary Battery Voltage,Aux Batt Volts,2102,(SIGNED(U)*256+T)/1000,11,14.6,V,7E2
