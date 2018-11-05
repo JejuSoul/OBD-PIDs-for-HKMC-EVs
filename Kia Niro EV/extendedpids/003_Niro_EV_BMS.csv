@@ -1,9 +1,11 @@
 000_Battery Cooling Water Temperature, Cooling Water T, 0x220106, signed(e), 0, 100, c, 7E4, , , 1
 000_Battery Heater 1 Temperature, Heater Temp1, 0x220105, signed(x), 0, 100, c, 7E4, , , 1
+000_Battery Current,Batt Current,0x220101,((Signed(K)*256)+L)/10,-230,230,A,7E4
 000_Battery DC Voltage, Batt Volts, 0x220101, ((m<8)+n)/10, 0, 406, V, 7E4, , , 1
+000_Battery Power,Energy Draw,0x220101,val{000_Battery Current}*val{000_Battery DC Voltage}/1000,-90,90,kW,7E4
 000_State of Charge Display, SOC Display, 0x220105, Af/2, 0, 100, %, 7E4, , , 1
 000_Battery Max Temperature, Batt MaxT, 0x220101, signed(o), 0, 80, c, 7E4, , , 1
 000_Maximum Cell Voltage, Max Cell V, 0x220101, x/50, 0, 4.2, V, 7E4, , , 1
-000_Minimum Cell Voltage, Min Cell V, 0x220101, signed(p), 0, 80, c, 7E4, , , 1
+000_Battery Min Temperature, Batt MinT, 0x220101, signed(p), 0, 80, c, 7E4, , , 1
 000_State of Charge BMS, SOC BMS, 0x220101, e/2, 0, 100, %, 7E4, , , 1
 000_Maximum Deterioration, Max Det, 0x220105, (z<8)+aa)/10, 0, 100, %, 7E4, , , 1
