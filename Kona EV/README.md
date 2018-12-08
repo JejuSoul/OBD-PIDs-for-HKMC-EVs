@@ -15,7 +15,7 @@ Dashboards in the dashboards folder
 ## TODO:
 These are taken from the Ioniq EV PID's and tweaked until they give something sensible.  No doubt this still needs work.
 
-Investigation spreadsheet is at [iKona PIDs](https://docs.google.com/spreadsheets/d/1-9jZafV9eZeBUnPQo7qQHbX2-_4qZfWfRVpidoF1owA/edit?usp=sharing)
+Investigation spreadsheet is at [Kona PIDs](https://docs.google.com/spreadsheets/d/1-9jZafV9eZeBUnPQo7qQHbX2-_4qZfWfRVpidoF1owA/edit?usp=sharing)
 
 ## References:
 All merits for this PIDs are from the original dev from https://github.com/JejuSoul
