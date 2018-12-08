@@ -16,7 +16,6 @@
 000_Battery Module 02 Temperature,Batt Temp02,0x220101,Signed(R),-40,80,C,7E4
 000_Battery Module 03 Temperature,Batt Temp03,0x220101,Signed(S),-40,80,C,7E4
 000_Battery Module 04 Temperature,Batt Temp04,0x220101,Signed(T),-40,80,C,7E4
-000_Battery Module 05 Temperature,Batt Temp05,0x220101,Signed(U),-40,80,C,7E4
 000_Battery Power,Energy Draw,0x220101,val{000_Battery Current}*val{000_Battery DC Voltage}/1000,-90,90,kW,7E4
 000_BMS Ignition,BMS Ignit.,0x220101,{ay:2},0,1,,7E4
 000_BMS Main Relay,BMS Relay,0x220101,{j:0},0,1,,7E4
