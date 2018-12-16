@@ -4,7 +4,7 @@
 000_Available Discharge Power,Max POWER,0x220101,((h<8)+i)/100,0,98,kW,7E4
 000_Battery Cell Voltage Deviation,V Diff,0x220105,u/50,0,0.5,V,7E4
 000_Battery Current,Batt Current,0x220101,((Signed(K)*256)+L)/10,-230,230,A,7E4
-000_Battery DC Voltage,Batt Volts,0x220101,((m<8)+n)/10,268.8,403.2,V,7E4
+000_Battery DC Voltage,Batt Volts,0x220101,((m<8)+n)/10,240,412.8,V,7E4
 000_Battery Fan Feedback,Batt Fan SPD,0x220101,ac,0,120,Hz,7E4
 000_Battery Fan Status,Batt Fan MOD,0x220101,ab,0,9,,7E4
 000_Battery Heater 1 Temperature,Heater Temp1,0x220105,Signed(X),0,30,C,7E4
