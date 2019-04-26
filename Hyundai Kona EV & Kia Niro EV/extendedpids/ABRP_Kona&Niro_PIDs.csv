@@ -1,0 +1,9 @@
+Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
+~Modifications by Jason Rapp for ABRP data contribution,List Credit,,,,,,
+!_ABRP_Battery Current,Batt Current,,val{000_Battery Current},-230,230,A,
+!_ABRP_Battery DC Voltage,Batt Volts,,val{000_Battery DC Voltage},0,406,V,
+!_ABRP_Battery Power,Energy Draw,,val{000_Battery Current}*val{000_Battery DC Voltage}/1000,-90,90,kW,
+!_ABRP_Fast_Charging,Charging,,val{000_Rapid Charge Port},0,1,,
+!_ABRP_State of Charge BMS,SOC BMS,,val{000_State of Charge BMS},0,100,%,
+!_ABRP_State of Charge Display,SOC Display,,val{000_State of Charge Display},0,100,%,
+!_ABRP_Max Deterioration,SOH,,val{000_Maximum Deterioration},0,100,%,

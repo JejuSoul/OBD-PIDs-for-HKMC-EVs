@@ -1,0 +1,43 @@
+000_Airbag H/wire Duty,Airbag,0x220105,w,50,100,,7E4
+000_Auxillary Battery Voltage,Aux Batt Volts,0x220101,ad*0.1,11,14.6,V,7E4
+000_Available Charge Power,Max REGEN,0x220101,((f<8)+g)/100,0,98,kW,7E4
+000_Available Discharge Power,Max POWER,0x220101,((h<8)+i)/100,0,98,kW,7E4
+000_Battery Cell Voltage Deviation,V Diff,0x220105,u/50,0,0.5,V,7E4
+000_Battery Current,Batt Current,0x220101,((Signed(K)*256)+L)/10,-230,230,A,7E4
+000_Battery DC Voltage,Batt Volts,0x220101,((m<8)+n)/10,268.8,403.2,V,7E4
+000_Battery Fan Feedback,Batt Fan SPD,0x220101,ac,0,120,Hz,7E4
+000_Battery Fan Status,Batt Fan MOD,0x220101,ab,0,9,,7E4
+000_Battery Heater 1 Temperature,Heater Temp1,0x220105,Signed(X),0,30,C,7E4
+000_Battery Heater 2 Temperature,Heater Temp2,0x220105,Signed(Y),0,30,C,7E4
+000_Battery Inlet Temperature,Batt InletT,0x220101,Signed(W),-40,80,C,7E4
+000_Battery Max Temperature,Batt MaxT,0x220101,Signed(O),-40,80,C,7E4
+000_Battery Min Temperature,Batt MinT,0x220101,Signed(P),-40,80,C,7E4
+000_Battery Module 01 Temperature,Batt Temp01,0x220101,Signed(Q),-40,80,C,7E4
+000_Battery Module 02 Temperature,Batt Temp02,0x220101,Signed(R),-40,80,C,7E4
+000_Battery Module 03 Temperature,Batt Temp03,0x220101,Signed(S),-40,80,C,7E4
+000_Battery Module 04 Temperature,Batt Temp04,0x220101,Signed(T),-40,80,C,7E4
+000_Battery Power,Energy Draw,0x220101,val{000_Battery Current}*val{000_Battery DC Voltage}/1000,-90,90,kW,7E4
+000_BMS Ignition,BMS Ignit.,0x220101,{ay:2},0,1,,7E4
+000_BMS Main Relay,BMS Relay,0x220101,{j:0},0,1,,7E4
+000_Cumulative Charge Current,CCC,0x220101,((ae<24)+(af<16)+(ag<8)+ah)/10,0,1000000,Ah,7E4
+000_Cumulative Discharge Current,CDC,0x220101,((ai<24)+(aj<16)+(ak<8)+al)/10,0,1000000,Ah,7E4
+000_Cumulative Energy Charged,CEC,0x220101,((am<24)+(an<16)+(ao<8)+ap)/10,0,1000000,kWh,7E4
+000_Cumulative Energy Discharged,CED,0x220101,((aq<24)+(ar<16)+(as<8)+at)/10,0,1000000,kWh,7E4
+000_Drive Motor Speed 1,Motor RPM 1,0x220101,(Signed(BB)*256)+BC,-10100,10100,rpm,7E4
+000_Drive Motor Speed 2,Motor RPM 2,0x220101,(Signed(BD)*256))+BE,-10100,10100,rpm,7E4
+000_HV_Charging,Charging,0x220101,{j:7},0,1,,7E4
+000_Inverter Capacitor Voltage,BMS Capacitor,0x220101,((az<8)+ba),0,500,V,7E4
+000_Isolation Resistance,Surge Resistor,0x220101,((bf<8)+bg),0,1000,kOhm,7E4
+000_Maximum Cell Voltage,Max Cell V,0x220101,x/50,2.8,4.2,V,7E4
+000_Maximum Cell Voltage No.,Max Cell V  No.,0x220101,y,0,96,,7E4
+000_Maximum Deterioration Cell No.,Max Det Cell No.,0x220105,ab,0,96,,7E4
+000_Minimum Cell Voltage,Min Cell V,0x220101,z/50,2.8,4.2,V,7E4
+000_Minimum Cell Voltage No.,Min Cell V  No.,0x220101,aa,0,96,,7E4
+000_Minimum Deterioration,Min Det,0x220105,((ac<8)+ad)/10,0,100,%,7E4
+000_Minimum Deterioration Cell No.,Min Det Cell No.,0x220105,ae,0,96,,7E4
+000_Normal Charge Port,J1772 Plug,0x220101,{j:5},0,1,,7E4
+000_Operating Time,OpTime,0x220101,((au<24)+(av<16)+(aw<8)+ax)/3600,0,1000000,hours,7E4
+000_Rapid Charge Port,Chademo Plug,0x220101,{j:6},0,1,,7E4
+000_State of Charge BMS,SOC BMS,0x220101,e/2,0,100,%,7E4
+000_State of Charge Display,SOC Display,0x220105,af/2,0,100,%,7E4
+000_State of Health,SOH,0x220105,((z<8)+aa)/10,0,100,%,7E4
