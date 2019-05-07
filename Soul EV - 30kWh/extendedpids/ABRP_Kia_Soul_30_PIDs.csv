@@ -9,3 +9,4 @@ Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
 !_ABRP_OBD_Speed,Real Speed,,val{003_VMCU Real Vehicle Speed},0,180,km/h,
 !_ABRP_SOH,State of Health,,val{004_CALC SOH Battery in 100 ratio},0,100,%,
 !_ABRP_Temperature,MCU Temp,,val{003_VMCU MCU Temperature},-40,80,C,
+!_ABRP_Battery_Temperature,MCU Temp,,val{004_CALC Average Battery Module Temperature},-40,80,C,

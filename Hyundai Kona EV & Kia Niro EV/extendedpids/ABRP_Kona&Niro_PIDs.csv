@@ -7,3 +7,4 @@ Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
 !_ABRP_State of Charge BMS,SOC BMS,,val{000_State of Charge BMS},0,100,%,
 !_ABRP_State of Charge Display,SOC Display,,val{000_State of Charge Display},0,100,%,
 !_ABRP_Max Deterioration,SOH,,val{000_Maximum Deterioration},0,100,%,
+!_ABRP_Battery Temperature,Batt T,,val{004_CALC Average Battery Module Temperature},-40,80,C,
