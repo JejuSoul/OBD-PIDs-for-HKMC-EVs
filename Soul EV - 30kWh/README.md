@@ -1,4 +1,5 @@
-# OBD PIDs for the 30kWh Kia Soul EV - Years 2018 to ...
+# OBD PIDs for the 30kWh Kia Soul EV - Model Years 2018 to 2019
+Or for earlier Model Years that have had a battery replacement with 30kWh battery.
 
 ## How to use:
 
