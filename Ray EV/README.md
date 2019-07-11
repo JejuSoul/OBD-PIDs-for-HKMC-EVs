@@ -1,4 +1,4 @@
-# OBD PIDs for the Kia Ray EV
+# OBD PIDs for the Kia Ray EV ( or Hyundai BlueON)
 
 ## How to use:
 
