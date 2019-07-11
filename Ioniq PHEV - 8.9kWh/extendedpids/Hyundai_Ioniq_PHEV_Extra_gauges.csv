@@ -1,0 +1,3 @@
+004_CALC Average Battery Module Temperature, Batt AvgT,2101,(val{000_Battery Module 01 Temperature}+val{000_Battery Module 02 Temperature}+val{000_Battery Module 03 Temperature}+val{000_Battery Module 04 Temperature}+val{000_Battery Module 05 Temperature}+val{000_Battery Module 06 Temperature}+val{000_Battery Module 07 Temperature}+val{000_Battery Module 08 Temperature}+val{000_Battery Module 09 Temperature}+val{000_Battery Module 10 Temperature}+val{000_Battery Module 11 Temperature}+val{000_Battery Module 12 Temperature})/12.0,-40,80,C,7E4
+004_CALC Average Cell Voltage,Avg Cell V,2101,val{000_Battery DC Voltage}/96,2.8,4.2,V,7E4
+004_CALC Estimated time 45kW 80% Charge,45kW 80%C,2105,(MAX(0:28*(0.8-(af/200)))/45)*60,0,100,minutes,7E4

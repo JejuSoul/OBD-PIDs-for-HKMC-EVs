@@ -1,0 +1,12 @@
+Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
+~Modifications by Jason Rapp for ABRP data contribution,List Credit,,,,,,
+!_ABRP_Battery Current,Batt Current,,val{000_Battery Current},-230,230,A,
+!_ABRP_Battery DC Voltage,Batt Volts,,val{000_Battery DC Voltage},268.8,403.2,V,
+!_ABRP_Battery Power,Energy Draw,,val{000_Battery Current}*val{000_Battery DC Voltage}/1000,-90,90,kW,
+!_ABRP_Cumulative Energy Charged,CEC,,val{000_Cumulative Energy Charged},0,1000000,kWh,
+!_ABRP_Cumulative Energy Discharged,CED,,val{000_Cumulative Energy Discharged},0,1000000,kWh,
+!_ABRP_HV_Charging,Charging,,val{000_HV_Charging},0,1,,
+!_ABRP_State of Charge BMS,SOC BMS,,val{000_State of Charge BMS},0,100,%,
+!_ABRP_State of Charge Display,SOC Display,,val{000_State of Charge Display},0,100,%,
+!_ABRP_State of Health,SOH,,val{000_State of Health},0,100,%,
+!_ABRP_VMCU Real Vehicle Speed,Real Speed,,val{003_VMCU Real Vehicle Speed},0,180,mph,
