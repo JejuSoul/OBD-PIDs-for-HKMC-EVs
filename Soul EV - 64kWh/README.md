@@ -1,6 +1,8 @@
 # OBD PIDs for the 64kWh Kia Soul EV - Years 2020 to ...
 
-This is a placeholder for the files I am going to put here after testing.
+Have added files for the BMS Battery and Cell data.
+There are a few more codes in the Kona files that I may add later if they are correct.
+A couple I have added even though I am unsure they are correct, for example the SOH, and cell voltage deviation.
 
 ## How to use:
 
