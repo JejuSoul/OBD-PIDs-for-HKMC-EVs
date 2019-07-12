@@ -94,3 +94,5 @@
 000_Cell Voltage 94,Cell 94,0x220104,ah/50,2.80,4.20,V,7E4
 000_Cell Voltage 95,Cell 95,0x220104,ai/50,2.80,4.20,V,7E4
 000_Cell Voltage 96,Cell 96,0x220104,aj/50,2.80,4.20,V,7E4
+000_Cell Voltage 97,Cell 97,0x220105,ai/50,2.80,4.20,V,7E4
+000_Cell Voltage 98,Cell 98,0x220105,aj/50,2.80,4.20,V,7E4
