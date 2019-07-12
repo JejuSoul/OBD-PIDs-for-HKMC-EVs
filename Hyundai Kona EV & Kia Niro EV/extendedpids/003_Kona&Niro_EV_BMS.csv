@@ -29,12 +29,12 @@
 000_Inverter Capacitor Voltage,BMS Capacitor,0x220101,((az<8)+ba),0,500,V,7E4
 000_Isolation Resistance,Surge Resistor,0x220101,((bf<8)+bg),0,1000,kOhm,7E4
 000_Maximum Cell Voltage,Max Cell V,0x220101,x/50,2.8,4.2,V,7E4
-000_Maximum Cell Voltage No.,Max Cell V  No.,0x220101,y,0,96,,7E4
-000_Maximum Deterioration Cell No.,Max Det Cell No.,0x220105,ab,0,96,,7E4
+000_Maximum Cell Voltage No.,Max Cell V  No.,0x220101,y,0,98,,7E4
+000_Maximum Deterioration Cell No.,Max Det Cell No.,0x220105,ab,0,98,,7E4
 000_Minimum Cell Voltage,Min Cell V,0x220101,z/50,2.8,4.2,V,7E4
-000_Minimum Cell Voltage No.,Min Cell V  No.,0x220101,aa,0,96,,7E4
+000_Minimum Cell Voltage No.,Min Cell V  No.,0x220101,aa,0,98,,7E4
 000_Minimum Deterioration,Min Det,0x220105,((ac<8)+ad)/10,0,100,%,7E4
-000_Minimum Deterioration Cell No.,Min Det Cell No.,0x220105,ae,0,96,,7E4
+000_Minimum Deterioration Cell No.,Min Det Cell No.,0x220105,ae,0,98,,7E4
 000_Normal Charge Port,J1772 Plug,0x220101,{j:5},0,1,,7E4
 000_Operating Time,OpTime,0x220101,((au<24)+(av<16)+(aw<8)+ax)/3600,0,1000000,hours,7E4
 000_Rapid Charge Port,Chademo Plug,0x220101,{j:6},0,1,,7E4
