@@ -8,6 +8,7 @@
 004_CALC Lost of SOH,Lost SOH,2101,27*val{004_CALC AVRDET For SOH Divided 100},0.00,27.00,kWh,7E2
 004_CALC SOH Battery in kWh,SOH in kWh,2101,27+val{004_CALC Lost of SOH},0.00,31.00,kWh,7E2
 004_CALC SOH Battery in 100 ratio,SOH in %,2101,val{004_CALC SOH Battery in kWh}/27*100,0.0,110.0,%,7E2
+004_CALC SOH Failing Battery,Bad SOH,2101,110-val{000_Maximum Deterioration},0.0,110.0,%,7E2
 004_CALC Instant Remaining Kilometers,MAX Km,2101,val{003_VMCU Instant Driving Efficiency2}*val{004_CALC SOH Battery in kWh}*val{004_CALC SOC Display Minus Security Divided 100},0,256,km,7E2
 004_CALC Instant Remaining Minutes,MAX Minutes,2101,val{004_CALC SOH Battery in kWh}*val{004_CALC SOC Display Minus Security Divided 100}/val{003_VMCU Instant Driving Efficiency}*60,0,240,min,7E2
 004_CALC Instant Remaining kWh,MAX kWh,2101,val{004_CALC SOH Battery in kWh}*val{000_State of Charge BMS}/100,0,30,kWh,7E2
