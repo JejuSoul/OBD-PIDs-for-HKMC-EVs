@@ -2,8 +2,9 @@
 
 ## How to use:
 
-These codes are primarily for use with Torque Pro which runs on Android phones and tablets. The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin.
-Or this can be done manually. [Setting up Torque to show OBD data](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/)
+These codes are primarily for use with Torque Pro which runs on Android phones and tablets.
+To input the codes to the phone : [How to use Torque with a Hyundai / Kia EV](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/)
+
 For some info on using Torque Pro. [Tips for using Torque Pro](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/tips.html)
 
 ## List of files: 

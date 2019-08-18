@@ -3,13 +3,12 @@ OBD PIDs for Hyundai/Kia/Motor/Company Electric Vehicles.
 Currently the 27kWh Kia Soul EV is best supported because that is the vehicle I own.
 Files for the 28kWh Hyundai Ioniq Electric should be fairly complete.
 
-The new 64kWh Kona, Soul and Niro EVs should all have the same codes. But this needs to be tested.
+The new 64kWh Kona, Soul, and Niro EVs should all have the same codes. But this needs to be tested.
 
 
 ## How to use:
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets.
-The preferred method of inputting them to the phone is via the plugin, HKMC-EV-Torque-Plugin.
-Or this can be done manually. [How to use Torque with a Hyundai / Kia EV](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/)
+To input the codes to the phone : [How to use Torque with a Hyundai / Kia EV](https://jejusoul.github.io/OBD-PIDs-for-HKMC-EVs/)
 
 ## What hardware do I need?
 Almost all users are using a Bluetooth Diagnostic Scanner connected to an android phone ot tablet running Torque Pro.
