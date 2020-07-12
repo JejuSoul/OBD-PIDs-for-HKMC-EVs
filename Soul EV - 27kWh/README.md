@@ -1,5 +1,11 @@
 # OBD PIDs for the 27kWh Kia Soul EV - Years 2014 to 2017
 
+## Updated Files July 2020
+The latest files use the new Torque formulas. They will work with recent copies of Torque.
+Old versions of the files are in the files_no_longer_used folder.
+Users with old versions of Torque will need to use these.
+Also the dashboards are now mostly out of date. They will probably work best with the older files.
+
 ## How to use:
 
 These codes are primarily for use with Torque Pro which runs on Android phones and tablets.
@@ -19,6 +25,8 @@ OBD PIDs in the extendedpids folder
 - `Kia_Soul_EV_TPMS_data.csv` :- Tire Pressure data.
 - `Kia_Soul_EV_VIN_data.csv` :- Vehicle Identification Number data.
 - `Kia_Soul_EV_VMCU_data.csv` :- Vehicle Motor Control System data.
+- `Kia_Soul_EV_Cluster_data` :- Driver Display data.
+
 
 For Analysis
 - `Spreadsheet_Kia_Soul_EV_BMS_2101_2105.xls` :- Response of PID and sensor mapping
