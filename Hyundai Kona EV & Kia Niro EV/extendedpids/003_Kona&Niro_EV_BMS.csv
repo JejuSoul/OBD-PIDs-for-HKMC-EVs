@@ -1,7 +1,7 @@
 000_Airbag H/wire Duty,Airbag,0x220105,w,50,100,,7E4
 000_Auxillary Battery Voltage,Aux Batt Volts,0x220101,ad*0.1,11,14.6,V,7E4
-000_Available Charge Power,Max REGEN,0x220101,((f<8)+g)/100,0,98,kW,7E4
-000_Available Discharge Power,Max POWER,0x220101,((h<8)+i)/100,0,98,kW,7E4
+000_Available Charge Power,Max REGEN,0x220105,((q<8)+r)/100,0,98,kW,7E4
+000_Available Discharge Power,Max POWER,0x220105,((s<8)+t)/100,0,98,kW,7E4
 000_Battery Cell Voltage Deviation,V Diff,0x220105,u/50,0,0.5,V,7E4
 000_Battery Current,Batt Current,0x220101,((Signed(K)*256)+L)/10,-230,230,A,7E4
 000_Battery DC Voltage,Batt Volts,0x220101,((m<8)+n)/10,268.8,403.2,V,7E4
