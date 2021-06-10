@@ -2,7 +2,7 @@ Name,ShortName,ModeAndPID,Equation,Min Value,Max Value,Units,Header
 003_VMCU Real Vehicle Speed,Speed,220100,ad,0,170,kmh,7B3
 006_Display Odometer,Odometer,22B002,(h<8)+i,0,400000,km,7C6
 006_Tyre Pressure FL,Tyre FL,22C00B,e/5,0,50,Psi,7A0
-006_Tyre Pressure FR,Tyre FR,22C00B,(i/5,0,50,Psi,7A0
+006_Tyre Pressure FR,Tyre FR,22C00B,i/5,0,50,Psi,7A0
 006_Tyre Pressure RR,Tyre RR,22C00B,m/5,0,50,Psi,7A0
 006_Tyre Pressure RL,Tyre RL,22C00B,q/5,0,50,Psi,7A0
 006_Tyre Temperature FL,Temp FL,22C00B,f-50,-50,100,degC,7A0
